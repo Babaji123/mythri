@@ -2232,3 +2232,14 @@ a.hvr-bounce-to-left:hover,a.hvr-bounce-to-left:focus,a.hvr-bounce-to-left:activ
   border-radius:6px;
 	
 }
+
+ul.excellence li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+  width: 90px;
+  vertical-align: top;
+}
+ul li {
+  line-height: 2.0;
+}
