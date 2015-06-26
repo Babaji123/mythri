@@ -61,6 +61,7 @@ p.phonenum {
 }
 .logo {
 	float:left;
+	margin-top: 0.5em;
 }
 .top-menu {
 	text-align: center;
