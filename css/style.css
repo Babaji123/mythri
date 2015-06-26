@@ -421,8 +421,8 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .footer{
 	background:#4B82A2;
-	/*padding:1em 0;
-	margin-bottom: -40px;*/
+	/*padding:1em 0;*/
+	margin-bottom: -2em;
 }
 .contact-section input[type="text"], .contact-section textarea {
 	width: 95%;
