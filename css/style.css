@@ -1294,7 +1294,7 @@ a.hvr-bounce-to-left:hover,a.hvr-bounce-to-left:focus,a.hvr-bounce-to-left:activ
 		padding: 4em 0;
 	}*/
 	.header-top {
-		padding: 1em 0;
+		padding: 0;
 	}
 }
 @media screen and (max-width: 1280px) {
