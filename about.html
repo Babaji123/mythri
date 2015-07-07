@@ -3,6 +3,7 @@
 <head>
 <title>Mythri Hospitals | About </title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
@@ -32,20 +33,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 
-<script>
-    function startLoop() {
-    setInterval( "doSomething()", 1000 ); }
-    function doSomething() {
-    document.getElementById('myMarquee').stop(); }
+ <script>
+var step = 1; // marquee is run on load time
+function startLoop()
+{
+    setInterval("doSomething()", 3100 );
+}
+function doSomething()
+{
+    if (step == 0) {
+        // 5 seconds are passed since marquee stopped
+        document.getElementById('myMarquee').start();
+        step = 1;
+    }
+    else
+    {
+        if (step == 1) {
+            // 5 seconds are passed since marquee started
+            step = 2; // Just delay of another 5 seconds before stop
+        }
+        else
+        {
+          if (step == 2) {
+                // 10  seconds are passed since marquee started
+              document.getElementById('myMarquee').stop();
+              step = 0;
+           }
+        }
+    }              
+}
 </script>
-
 </head>
 <body>
    
-    <div class="header-top">
+            <div class="header-top">
 			<div class="container">
 				<div class="logo">
-					<a href="index.html"><img src="images/logo3.png" alt="" /></a>
+					<a href="index.html"><img src="images/round logo.png"/>&nbsp;&nbsp;&nbsp;<img src="images/logo3.png" alt="" /></a>
 				</div>
 				<span class="menu"></span>
 				<div class="top-menu">
@@ -72,96 +96,74 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- header-section-ends -->
-    <div class="container" >
+    <div class="container" style="margin-top:-0.2em">
     <div class="col-md-12">
     <div class="row">
-     <div class="col-md-1">
     
-     </div>
-       
-        <div class="col-md-10">
-        <div class="banner">
-		<!----->
-	<div class="slider">	  
-		  <div class="callbacks_container">
+          <div class="banner">
+	       <div class="slider">	  
+		      <div class="callbacks_container">
 			  <ul class="rslides" id="slider">
 				 <li>
-					 <img src="images/ban1.png" />
-					
+					 <img src="images/about.png" />
 				 </li>
-				
-			  </ul>	      
-		  </div>
+			 </ul>	      
+		    </div>
           </div>
-          </div>
-          </div>
-           <div class="col-md-1" style="margin-top:1em">
-             <!--<h4 align="center"><font color="#074062"> Mythri Services  </font></h4>
-           <img src="images/services.png" />-->
-           </div>
+        </div>
         </div>
        </div>
-      </div>
-      
-      
-       <!--<h4 class="header" style="margin-top:2em;margin-left:9em"><font color="#074062">Our Departments</font></h4>-->
-    <div class="content" align="center">
-    <div class="custom-exc">
-	<ul class="excellence">
-<li><a href="#"><img src="images/casuality.png" onMouseOver="this.src='images/casuality1.png'" onMouseOut="this.src='images/casuality.png'"><span>Casuality</span></a></li>
-<li><a href="#"><img src="images/opth.png" onMouseOver="this.src='images/opth1.png'" onMouseOut="this.src='images/opth.png'"></a><span>Opthalmology</span></li>
-<li><a href="#"><img src="images/derma.png" onMouseOver="this.src='images/derma1.png'" onMouseOut="this.src='images/derma.png'"></a><span>Dermatology</span></li>
-<li><a href="#"><img src="images/surgery.png" onMouseOver="this.src='images/surgery1.png'" onMouseOut="this.src='images/surgery.png'"></a><span>General&nbsp;Surgery</span></li>
-<li><a class="#"><img src="images/pysio.png" onMouseOver="this.src='images/pysio1.png'" onMouseOut="this.src='images/pysio.png'"></a><span>Physiotherapy</span></li>
-<li><a class="#"><img src="images/neuro.png" onMouseOver="this.src='images/neuro1.png'" onMouseOut="this.src='images/neuro.png'"></a><span>Neurology</span></li>
-<li><a class="#"><img src="images/pedia.png" onMouseOver="this.src='images/pedia1.png'" onMouseOut="this.src='images/pedia.png'"></a><span>Pediatrics</span></li>
-<li><a class="#"><img src="images/cardio.png" onMouseOver="this.src='images/cardio1.png'" onMouseOut="this.src='images/cardio.png'"></a><span>Cardiology</span></li>
-<!--<li><a class="seven" href="/specialities/spine/overview"></a><span>More</span></li>-->
-     </ul>
      </div>
-     </div>
-      
-      
-     <div class="container">
-     <div class="row">
-     <div class="col-md-1" style=" margin-top:2em">
-    <!-- <p align="justify"><font color="#0033CC"><strong>Mythri Hospital</strong> is introducing</font> <strong><font color="#FF3300">Mythri Family Health Card System.</font></strong> </font></p><br>
-     <a href="#"><img src="images/cards.png"/> </a>-->
-     </div>
-          <div class="col-md-10"> 
-          <div class="text" style="margin-top:1em">
-           <div class="col-md-6" style="padding-right:1em; margin-top:1em">
-            <h3><font color="#FF7200">About Us</font> </h3>
-              <p align="justify" style="margin-top:1em">Truly depicted as "Gods own country" Kerala enjoys a unique place in the minds of every Indian and
-               every foreign tourist who are lucky to visit us. Lush green hills and flowing rivers and the diversity of people
-               practicing different religion and belief, adds to its charm.This is the land of Ayurveda, a system medicine,time 
-               tested and perfected </p>
-                <p align="justify">which exhorts the people to live in harmony with nature. Research scholars are digging into the
-               past, rediscovering the glory and effectiveness of its system where side effects are minimized and the cost of 
-               investigation and treatment reduced to combat new diseases such as Cancer and AIDS to name a few. Geographically </p>
-               </div>
+ 
+               <div class="container">
+               <div class="row">
+               <div class="text">
+               <div class="col-md-6" style="padding-right:2em">
+             <!--  <h3><font color="#FF7200">About Us</font> </h3>-->
+               <p align="justify" style="margin-top:1em"><font color="#A21160"; size="+1"><strong>About Us </strong></font> Mythri group
+                is started and run by doctors. The management consists of Dr Ramachandra Rao Chairman MBBS DGS, Dr Laxmi MBBS DGO
+                 Director, Dr Prakash BVegunta MS FRCS Managing director, and Dr Madhavi MR COG. Mythri group has experience in running 
+                hospitals since 1998. Mythri group ran a hospital successfully at Ameerpet from 1998 to Dec 2007. Mythri group is running 
+               a Multi specialty hospital at Chandanagar, BHEL, since 2006. In view of fast development of Attapoor, ORR and Shamshabad due 
+                to International Air port employees. Mythri group started new hospital in this area which is affordable to middle class and 
+                upper middle class people since 2009,           
                
-               <div class="col-md-6" style="padding-right:1em; margin-top:1em">
-               <h3><font color="#FF7200">Our History</font> </h3>
-               <p align="justify" style="margin-top:1em"> <font color="#074062"><font size="3px"><strong>Mythri Hospital </strong></font></font> was started in 1998 by Dr. J.Rama Chandra Rao MBBS. DGS, Dr. J. Lakshmi, MBBS. DGO who has been practicing Surgery and Gynaecology
-           respectively for the last 30 years along with Dr.PrakashB.Vegunta MS,FRCS. & Dr. Madhavi MRCOG who returned to India after getting trained in UK.
-
-             Dr. Kishore MBBS, MS ( Ortho ) and Dr. Y Haritha MD DGO, who got trained extensively in their respective fields in UK,
-            also joined the organisation subsequently. </p>
-               </div>
-     <div class="col-md-1" style="margin-top:2em">
-    <!-- <img src="images/about1.png"/> -->
-     </div>
-   
+               which exhorts the people to live in harmony with nature. Research scholars are digging into the
+               past, rediscovering the glory and effectiveness of its system where side effects are minimized and the cost of 
+               investigation and treatment reduced to combat new diseases such as Cancer and AIDS.</p>
+               <P align="justify">Dr. Prakash back in 1978 an elite group of philanthropists and businessman met to discuss the setting up of a
+                hospital specializing in cardiac cases. As a prelude,with Dr.P.M.Varkey, FRCP as its Chairman .
+               </div> </div> 
+               <div class="col-md-6" style="margin-top:1.3em">
+               <div class="row">
+               <p align="justify">  The society subsequently sponsored the Trichur Heart Hospital Ltd,the first investor owned, multi disciplinary Super Speciality High Tech Corporate Hospital with 
+                 Dr. Varkey as its President and Chief Promoter. The project was conceived with an idea of establishing an institution of 
+                 international standards to provide excellence in treatment, nursing care, service and cleanliness.</p>
+               <div class="col-md-6" style="padding-left:4em;padding-top:0em">
+               <div class="news" style="padding:0.5em">
+               <h4 align="center"><font color="#A21160"><strong>News</strong></font></h4>
+               <body onload="startLoop();">
+               <marquee direction="up" id="myMarquee"scrollamount="2" height="165" width="170" >
+               <p align="justify"> <strong><font color="#074062">Mythri Hospital</font></strong>  was introducing health card system which is aimed to provide international standard health care. 
+               Health Cards available in 3 categories</p><p>1.<strong>SILVER</strong></p><P>2.<strong>GOLD</strong></P><P>3.<strong>PLATINUM</strong></P><hr>
+               <p align="justify"><strong><font color="#074062">Mythri Group</font></strong> has corporate health tieup with more than 70 organisations
+               in both private and public sectors.</p></p><hr>
+               <p align="justify"><strong><font color="#074062">Mythri Hospital</font></strong> is introducing <strong><font color="#FF3300">Mythri Family Health Card System </font></strong>
+               providing some benifits to the card holders.</p>
+               </marquee>
+             </body>
+            </div>
+           </div>
+           <div class="col-md-6" style="margin-top:0.5em">
+              <img src="images/cards.png"/>
+      </div>
     </div>
     </div>
     </div>
     </div>
-    </div>
-	
 	<!-- footer-section-starts -->
 	<div class="footer">
-				<div class="copyright" align="left" style="margin-top:3em">
+				<div class="copyright" align="left">
             	<p align="center"><font color="#ffffff">&nbsp;    &copy;Copyright 2006 Mythri Hospitals - All Rights Reserved.
                 &nbsp;&nbsp;&nbsp; Design by<a href="http://www.technowellservices.com" target="_blank"> 
                     Technowell &nbsp;</font></a></p>

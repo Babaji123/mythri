@@ -1,14 +1,16 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <html>
 <head>
 <title>Mythri Hospitals | Home</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
-<!-- navigation -->
+<!-- navigation -->   
 <link href="css/component.css" rel="stylesheet" type="text/css"  />
 <!-- navigation -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,52 +35,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <script type="text/javascript" src="js/move-top.js"></script>
   <script type="text/javascript" src="js/easing.js"></script>
   
-  <script>
-var step = 1; // marquee is run on load time
-function startLoop()
-{
-    setInterval("doSomething()", 3100 );
+<!--<style>
+div1 {
+    display: none;
+   <!-- border:2px solid #000;-->
+ 
+<!--  height:25px;
+    width:100px;
+    margin-left:0px;
 }
-function doSomething()
-{
-    if (step == 0) {
-        // 5 seconds are passed since marquee stopped
-        document.getElementById('myMarquee').start();
-        step = 1;
-    }
-    else
-    {
-        if (step == 1) {
-            // 5 seconds are passed since marquee started
-            step = 2; // Just delay of another 5 seconds before stop
-        }
-        else
-        {
-          if (step == 2) {
-                // 10  seconds are passed since marquee started
-              document.getElementById('myMarquee').stop();
-              step = 0;
-           }
-        }
-    }              
-}
-</script>
+
+a:hover + div1 {
+    display: block;
+}​
+</style>-->
+
 </head>
 <body>
    
-    <div class="header-top">
+            <div class="header-top">
 			<div class="container">
 				<div class="logo">
-					<a href="index.html"><img src="images/logo3.png" alt="" /></a>
+		    	<a href="index.html"><img src="images/round logo.png"/>&nbsp;&nbsp;&nbsp;<img src="images/logo3.png" alt="" /></a>
 				</div>
 				<span class="menu"></span>
 				<div class="top-menu">
 					<ul>
 					<nav class="cl-effect-5">
-						<li><a class="active" href="index.html"><strong>Home</strong></span></a></li> 
-						<li><a href="about.html"><strong>About Us</strong></span></a></li>
-						<li><a href="facilities.html"><strong>Facilities</strong></span></a></li> 
-						<li><a href="contact.html"><strong>Contact Us</strong></span></a></li>
+						<li><a class="active" href="index.html"><strong>Home</strong></a></li> 
+						<li><a href="about.html"><strong>About Us</strong></a></li>
+						<li><a href="facilities.html"><strong>Facilities</strong></a></li> 
+						<li><a href="contact.html"><strong>Contact Us</strong></a></li>
 					</nav>
 					</ul>
 				</div>
@@ -98,86 +85,88 @@ function doSomething()
 	<!-- header-section-ends -->
    
             <div class="container" style="margin-top:-0.2em">
-            <div class="row">
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-10">
-             <div class="banner">
-	         <div class="slider">	  
-	  	     <div class="callbacks_container">
-			  <ul class="rslides" id="slider">
-				 <li>
-					 <img src="images/ban1.png" alt=""/>
-					
-				 </li>
-				 <!--<li>
-					 <img src="images/banner2_2_1.png" alt=""/>
-					
-				</li>
-                <li>
-					 <img src="images/specalities.png" alt=""/>
-					
-				</li>-->
-			  </ul>	      
-		      </div>
+              <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              
+               <div class="banner">
+	            <div class="slider">	  
+	  	         <div class="callbacks_container">
+			       <ul class="rslides" id="slider">
+			    	 <li>
+				       <img src="images/Banner.png" alt=""/>
+				     </li>
+				     <li>
+				 	 <img src="images/bannertwo.png" alt=""/>
+			         </li>
+                     <li>
+					 <img src="images/bannerthree.png" alt=""/>
+				     </li>
+			      </ul>	      
+		       </div>
              </div>
-       </div>
-      </div>
-      <div class="col-md-1">
+           </div>
       </div>
       </div>
       </div>
-    <!--<h4 class="header" style="margin-top:2em;margin-left:9em"><font color="#074062">Our Departments</font></h4>-->
-    <div class="content" align="center">
+   
+    <div class="content" align="center" style="margin-top:2em">
     <div class="custom-exc">
 	<ul class="excellence">
-<li><a href="casuality.html"><img src="images/casuality.png" onMouseOver="this.src='images/casuality1.png'" onMouseOut="this.src='images/casuality.png'"><span>Casuality</span></a></li>
-<li><a href="opthalmology.html"><img src="images/opth.png" onMouseOver="this.src='images/opth1.png'" onMouseOut="this.src='images/opth.png'"></a><span>Opthalmology</span></li>
-<li><a href="dermatology.html"><img src="images/derma.png" onMouseOver="this.src='images/derma1.png'" onMouseOut="this.src='images/derma.png'"></a><span>Dermatology</span></li>
-<li><a href="general.html"><img src="images/surgery.png" onMouseOver="this.src='images/surgery1.png'" onMouseOut="this.src='images/surgery.png'"></a><span>General&nbsp;Surgery</span></li>
-<li><a href="physiotherapy.html"><img src="images/pysio.png" onMouseOver="this.src='images/pysio1.png'" onMouseOut="this.src='images/pysio.png'"></a><span>Physiotherapy</span></li>
-<li><a href="neurology.html"><img src="images/neuro.png" onMouseOver="this.src='images/neuro1.png'" onMouseOut="this.src='images/neuro.png'"></a><span>Neurology</span></li>
-<li><a href="pediatrics.html"><img src="images/pedia.png" onMouseOver="this.src='images/pedia1.png'" onMouseOut="this.src='images/pedia.png'"></a><span>Pediatrics</span></li>
-<li><a href="cardiology.html"><img src="images/cardio.png" onMouseOver="this.src='images/cardio1.png'" onMouseOut="this.src='images/cardio.png'"></a><span>Cardiology</span></li>
+<li><a href="cardiology.html"><img src="images/cardio.png"  title="Cardiology"  onMouseOver="this.src='images/cardio1.png'" onMouseOut="this.src='images/cardio.png'"></a><!--<span>Cardiology</span>--></li>
+<li><a href="neurology.html"><img src="images/neuro.png"  title="Neurology"  onMouseOver="this.src='images/neuro1.png'" onMouseOut="this.src='images/neuro.png'"></a><!--<span>Neurology</span>--></li>
+<li><a href="gastroenterology.html"><img src="images/gastero.png"  title="Gastroenterology"  onMouseOver="this.src='images/gastero1.png'" onMouseOut="this.src='images/gastero.png'"></a><!--<span>Gastroenterology</span>--></li>
+<li><a href="gynecology.html"><img src="images/gynecology.png" title="Gynecology"  onMouseOver="this.src='images/gynecology1.png'" onMouseOut="this.src='images/gynecology.png'"></a><!--<span>Gynecology</span>--></li>
+<li><a href="ortho.html"><img src="images/ortho.png"  title="Ortho & Trouma" onMouseOver="this.src='images/ortho1.png'" onMouseOut="this.src='images/ortho.png'"></a><!--<span>Ortho&nbsp;&&nbsp;Trouma</span>--></li>
+<li><a href="general.html"><img src="images/general.png" title="General Medicine" onMouseOver="this.src='images/general1.png'" onMouseOut="this.src='images/general.png'"></a><!--<span>General&nbsp;Medicine</span>--></li>
+<li><a href="pulmonology.html"><img src="images/pulmanology.png" title="Pulmonology"  onMouseOver="this.src='images/pulmanology1.png'" onMouseOut="this.src='images/pulmanology.png'"></a><!--<span>Pulmonology</span>--></li>
+<li><a href="ent.html"><img src="images/ent.png" title="E N T" onMouseOver="this.src='images/ent1.png'" onMouseOut="this.src='images/ent.png'"></a><br><!--<span>E N T</span>--></li>
+<!--<li><a class="seven" href="/specialities/spine/overview"></a><span>More</span></li>-->
+    <!-- </ul>
+     </div>
+     </div>
+    
+    <!--<h4 class="header" style="margin-top:2em;margin-left:9em"><font color="#074062">Our Departments</font></h4>-->
+  <!--  <div class="content" align="center">
+    <div class="custom-exc">
+	<ul class="excellence">-->
+<li><a href="laparoscopy.html"><img src="images/lapro.png" title="Laparoscopy" onMouseOver="this.src='images/lapro1.png'" onMouseOut="this.src='images/lapro.png'"></a><!--<div1>Laparoscopy</div1>--></li>
+<li><a href="ophthalmology.html"><img src="images/opthomology.png" title="Ophthalmology" onMouseOver="this.src='images/opthomology1.png'" onMouseOut="this.src='images/opthomology.png'"></a><!--<span>Ophthalmology</span>--></li>
+<li><a href="pediatrics.html"><img src="images/pedia.png" title="Pediatrics" onMouseOver="this.src='images/pedia1.png'" onMouseOut="this.src='images/pedia.png'"></a><!--<span>Pediatrics</span>--></li>
+<li><a href="plasticsurgery.html"><img src="images/plastic.png" title="Plastic Surgery" onMouseOver="this.src='images/plastic1.png'" onMouseOut="this.src='images/plastic.png'"></a><!--<span>Plastic&nbsp;Surgery</span>--></li>
+<li><a href="urology.html"><img src="images/urology.png" title="Urology" onMouseOver="this.src='images/urology1.png'" onMouseOut="this.src='images/urology.png'"></a><!--<span>Urology</span>--></li>
+<li><a href="burns.html"><img src="images/burns.png" title="Burns" onMouseOver="this.src='images/burn1.png'" onMouseOut="this.src='images/burns.png'"></a><!--<span>Burns</span>--></li>
+<li><a href="dermatology.html"><img src="images/derma.png" title="Dermatology" onMouseOver="this.src='images/derma1.png'" onMouseOut="this.src='images/derma.png'"></a><!--<span>Dermatology</span>--></li>
+<li><a href="icu.html"><img src="images/icu.png" title="Intensive Care Unit" onMouseOver="this.src='images/icu1.png'" onMouseOut="this.src='images/icu.png'"></a><!--<span>Intensive&nbsp;Care</span>--></li>
 <!--<li><a class="seven" href="/specialities/spine/overview"></a><span>More</span></li>-->
      </ul>
      </div>
      </div>
-     <div class="container">
-     <div class="col-md-12">
-          <div class="row">
-           <div class="col-md-1">
-           </div>  
-           <div class="col-md-10"> 
-           <div class="text">
-           <div class="col-md-6" style="padding-right:1em">
-            
-           <p align="justify"> <!--<font color="#FF7200"; size="+1"><strong>Our Profile :</strong></font>--> <strong><font color="#074062";size="3px">Mythri Hospital  </font></strong>  was established in 1998 as a multi speciality hosptial aimed at bringing the health care 
+          <div class="container" style="margin-top:1em">
+             <div class="col-md-12">
+               <div class="row">
+                 <div class="text">
+                  <div class="col-md-6">
+           <p align="justify" style="margin-top:1em"><font color="#A21160"; size="+1"><strong>Our Profile -</strong></font><strong><font color="#074062";size="3px"> Mythri Hospital  </font></strong>  was established in 1998 as a multi speciality hosptial aimed at bringing the health care 
            costs within the reach of the common man. It is started as a 40 Bed hospital at its Ameerpet Center, Hyderabad, India.
-           Since then it has grown up  into a &nbsp;<strong> Super Speciality </strong> &nbsp; Center with &nbsp; <strong>200</strong>&nbsp; beds along with the&nbsp; latest </p> </div>
-
-          
-           
-           <div class="col-md-6" style="padding-left:1em">
-          <p align="justify"> equipment. Mythri group has corporate health tieup with more than 70 organisations in both private and public 
+           Since then it has grown up  into a &nbsp;<strong> Super Speciality </strong> &nbsp; Center with &nbsp; <strong>200</strong>&nbsp; beds along with the&nbsp; latest equipment. Mythri group has corporate health tieup with more than 70 organisations in both private and public 
            sectors.The group is expanding with another 150 Beds Hospital at Main Road, Chanda Nagar which is situated on Mumbai
-           Highway  </p>
-            
-        	</div>
-            </div>
-            </div>
-           <!-- <div class="col-md-2">
-            <img src="images/add1.png"/>
-            </div> -->   
-             <div class="col-md-1">
+           Highway  </p> </div>
+           <div class="col-md-6" style="padding-left:1em">
+          <!--<h3><font color="#FF7200">Our History</font> </h3>-->
+               <p align="justify" style="margin-top:1em"><p align="justify"><font color="#A21160"; size="+1"><strong>Our History - </strong></font> <font color="#074062"><strong>Mythri Hospital </strong></font> was started in 1998 by Dr. J.Rama Chandra Rao MBBS. DGS, Dr. J. Lakshmi, MBBS. DGO who has been practicing Surgery and Gynaecology
+                respectively for the last 30 years along with Dr.PrakashB.Vegunta MS,FRCS. & Dr. Madhavi MRCOG who returned to India after getting trained in UK.
+                Dr. Kishore MBBS, MS ( Ortho ) and Dr. Y Haritha MD DGO, who got trained extensively in their respective fields in UK,
+                also joined the organisation subsequently.</p>
+        	    </div>
+               </div>
              </div>
-          </div>
+           </div>
+         </div>
         </div>
-       </div>
       </div>
      </div>
     </div>
-	<div class="container">
+	<!--<div class="container">
     <div class="row">
     <div class="col-md-12">
     <div class="col-md-1">
@@ -208,12 +197,12 @@ function doSomething()
     </div>
     </div>
     </div>
-    </div>
+    </div>-->
 	<!-- footer-section-starts --> 
     
-	             <div class="footer" >
+	             <div class="footer" style="margin-top:6.8em">
 				 <div class="copyright">
-                	<p align="center"><font color="#ffffff">&nbsp;&copy;Copyright 2006 Mythri Hospitals - All Rights Reserved.
+                	<p align="center"><font color="#ffffff">&nbsp;&nbsp;&copy;Copyright 2006 Mythri Hospitals - All Rights Reserved.
                  &nbsp;&nbsp;&nbsp;   Design by<a href="http://www.technowellservices.com" target="_blank"> 
                     Technowell &nbsp;</font></a></p>
                     </div>
