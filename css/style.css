@@ -2257,10 +2257,14 @@ ul li {
 */
 
 * { margin: 0; padding: 0; }
-body { font: 14px Georgia, serif; }
+body { font: 14px Roboto; }
 
 article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }
 
 #page-wrap { width: 960px; margin: 80px auto; }
 
+p {
+  margin: 0;
+  line-height: 1.5em;
+}
