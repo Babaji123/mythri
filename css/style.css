@@ -2243,10 +2243,24 @@ a.hvr-bounce-to-left:hover,a.hvr-bounce-to-left:focus,a.hvr-bounce-to-left:activ
 ul.excellence li {
   display: inline-block;
   text-align: center;
-  margin: 0 -12px;
+  margin: 0 -7px;
   width: 90px;
   vertical-align: top;
 }
 ul li {
   line-height: 2.0;
 }
+
+/*
+	 CSS for semi circle headings
+	
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; }
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#page-wrap { width: 960px; margin: 80px auto; }
+
