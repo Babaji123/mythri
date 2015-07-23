@@ -2226,7 +2226,7 @@ a.hvr-bounce-to-left:hover,a.hvr-bounce-to-left:focus,a.hvr-bounce-to-left:activ
  /* padding: 5px 15px 15px;*/
   background-color: #FFFFFF;
   background-position: center;
-  border: 4px solid #046297;
+  border: 4px solid #7B1C05;
   box-shadow: 0 0 10px;
   /*border-radius: 10px;*/
   font-size: 13px;
@@ -2246,7 +2246,7 @@ ul.excellence li {
   margin: 0 -7px;
   width: 90px;
   vertical-align: top;
-  color: #2437F1;
+  color:#066;
 }
 ul li {
   line-height: 2.0;
@@ -2268,4 +2268,23 @@ menu, nav, section { display: block; }
 p {
   margin: 0;
   line-height: 1.5em;
+}
+
+
+/* small slide show*/
+#slideshow { 
+    margin: 10px 0px 5px -30px; 
+    position: relative; 
+    width: 300px; 
+    height: 210px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    right: 5px; 
+    bottom: 5px; 
 }
